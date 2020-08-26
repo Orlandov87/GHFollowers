@@ -28,7 +28,7 @@ class SearchVC: UIViewController {
     // You would want to hide the navigation title in the seach screen
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     // Creates a tap gesture that dismisses the keyboard.
