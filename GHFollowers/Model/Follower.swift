@@ -9,7 +9,7 @@
 import Foundation
 
 // Codable allows for easy transposition of JSON to variable based on the exact name matched.
-struct Follower: Codable {
+struct Follower: Codable, Hashable {
     var login: String
     var avatarUrl: String
 }
