@@ -10,7 +10,7 @@ import UIKit
 
 class FollowerListVC: UIViewController {
     
-    // CollectionView needs to know about the sections that we have
+    // CollectionView needs to know about the sections that we have.
     enum Section { case main }
     
     var username: String!
